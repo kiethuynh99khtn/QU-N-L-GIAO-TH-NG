@@ -67,14 +67,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="404.html" />
-    <Content Include="blank.html" />
-    <Content Include="buttons.html" />
-    <Content Include="cards.html" />
-    <Content Include="charts.html" />
+    <Content Include="Views\404.html" />
+    <Content Include="Views\blank.html" />
+    <Content Include="Views\buttons.html" />
+    <Content Include="Views\cards.html" />
+    <Content Include="Views\charts.html" />
     <Content Include="css\sb-admin-2.css" />
     <Content Include="css\sb-admin-2.min.css" />
-    <Content Include="forgot-password.html" />
+    <Content Include="Views\forgot-password.html" />
     <Content Include="gulpfile.js" />
     <Content Include="img\undraw_posting_photo.svg" />
     <Content Include="img\undraw_profile.svg" />
@@ -82,20 +82,20 @@
     <Content Include="img\undraw_profile_2.svg" />
     <Content Include="img\undraw_profile_3.svg" />
     <Content Include="img\undraw_rocket.svg" />
-    <Content Include="index.html" />
+    <Content Include="Views\index.html" />
     <Content Include="js\demo\chart-area-demo.js" />
     <Content Include="js\demo\chart-bar-demo.js" />
     <Content Include="js\demo\chart-pie-demo.js" />
     <Content Include="js\demo\datatables-demo.js" />
     <Content Include="js\sb-admin-2.js" />
     <Content Include="js\sb-admin-2.min.js" />
-    <Content Include="login.html" />
-    <Content Include="register.html" />
-    <Content Include="tables.html" />
-    <Content Include="utilities-animation.html" />
-    <Content Include="utilities-border.html" />
-    <Content Include="utilities-color.html" />
-    <Content Include="utilities-other.html" />
+    <Content Include="Views\login.html" />
+    <Content Include="Views\register.html" />
+    <Content Include="Views\tables.html" />
+    <Content Include="Views\utilities-animation.html" />
+    <Content Include="Views\utilities-border.html" />
+    <Content Include="Views\utilities-color.html" />
+    <Content Include="Views\utilities-other.html" />
     <Content Include="vendor\bootstrap\js\bootstrap.bundle.js" />
     <Content Include="vendor\bootstrap\js\bootstrap.bundle.min.js" />
     <Content Include="vendor\bootstrap\js\bootstrap.js" />
