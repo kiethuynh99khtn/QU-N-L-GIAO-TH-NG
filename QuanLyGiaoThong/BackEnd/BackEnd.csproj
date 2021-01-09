@@ -45,17 +45,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
-    </Reference>
-    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
-    <Reference Include="System.Security" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -162,40 +155,11 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
-    <Compile Include="Controllers\BienBanController.cs" />
-    <Compile Include="Controllers\DK_GPLXController.cs" />
-    <Compile Include="Controllers\GPLXController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\HSDCLController.cs" />
-    <Compile Include="Controllers\KQController.cs" />
-    <Compile Include="Controllers\LoaiXeController.cs" />
-    <Compile Include="Controllers\LopHocController.cs" />
-    <Compile Include="Controllers\LuatController.cs" />
-    <Compile Include="Controllers\NguoiDungController.cs" />
-    <Compile Include="Controllers\NguoiQuanLyController.cs" />
-    <Compile Include="Controllers\QDXPController.cs" />
-    <Compile Include="Controllers\ThanhToanController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
-    <Compile Include="Controllers\XeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\BienBan.cs" />
-    <Compile Include="Models\ChiTietBienBan.cs" />
-    <Compile Include="Models\ChiTietQDXP.cs" />
-    <Compile Include="Models\DangKyGPLX.cs" />
-    <Compile Include="Models\GiayPhepLaiXe.cs" />
-    <Compile Include="Models\HoSoDoi_CapLaiGPLX.cs" />
-    <Compile Include="Models\KetQuaSatHach.cs" />
-    <Compile Include="Models\LoaiXe.cs" />
-    <Compile Include="Models\LopHoc.cs" />
-    <Compile Include="Models\LuatGiaoThong.cs" />
-    <Compile Include="Models\NguoiDung.cs" />
-    <Compile Include="Models\NguoiQuanLy.cs" />
-    <Compile Include="Models\QuanLyGiaoThong.cs" />
-    <Compile Include="Models\QuyetDinhXuPhat.cs" />
-    <Compile Include="Models\ThanhToan.cs" />
-    <Compile Include="Models\Xe.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -251,6 +215,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
