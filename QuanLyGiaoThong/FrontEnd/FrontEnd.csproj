@@ -67,15 +67,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="dangnhap.html" />
-    <Content Include="images\trongdong.jpg" />
-    <Content Include="tcqdxp.html" />
-    <Content Include="tcbienban.html" />
-    <Content Include="contact.html" />
     <Content Include="contact.php" />
+    <Content Include="dangkygplx.html" />
     <Content Include="dangkyxe.html" />
-    <Content Include="xemxe.html" />
-    <Content Include="tcluat.html" />
+    <Content Include="dangnhap.html" />
+    <Content Include="doicaplaigplx.html" />
+    <Content Include="images\trongdong.jpg" />
     <Content Include="css\animate.css" />
     <Content Include="css\animate.min.css" />
     <Content Include="css\bootstrap-touch-slider.css" />
@@ -144,10 +141,17 @@
     <Content Include="js\mapsed.js" />
     <Content Include="js\modernizer.js" />
     <Content Include="js\timeline.min.js" />
-    <Content Include="pricing.html" />
     <Content Include="style.css" />
-    <Content Include="teachers.html" />
+    <Content Include="tcbienban.html" />
+    <Content Include="tcluat.html" />
+    <Content Include="tcqdxp.html" />
+    <Content Include="thongtincanhan.html" />
     <Content Include="Web.config" />
+    <Content Include="xemdiemgplx.html" />
+    <Content Include="xemgplx.html" />
+    <Content Include="xemkqsathach.html" />
+    <Content Include="xemlichthi.html" />
+    <Content Include="xemxe.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
